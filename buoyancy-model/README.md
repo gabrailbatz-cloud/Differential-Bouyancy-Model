@@ -38,8 +38,3 @@ buoyancy-model
 - `src/buoyancy_model/` — reusable code
 - `notebooks/` — the original notebook
 - `tests/` — placeholder for future tests
-
-## Notes
-
-The model is intentionally simple and “lumped” (e.g., drag is a single coefficient). If you want to extend it,
-good next steps are: a more realistic submerged-volume geometry, linear + quadratic drag, and parameter fitting.
